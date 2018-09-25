@@ -1,0 +1,4 @@
+// Etherscan.io
+const APIKEY = '56AW9QHYFQA6BZMKHWV7QSZMSMS5U568PQ';
+
+export default APIKEY;

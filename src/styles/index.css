@@ -1,0 +1,152 @@
+/* --------------------
+minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css 
+-------------------- */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+	margin: 0;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+img,
+embed,
+object,
+audio,
+video {
+	max-width: 100%;
+}
+
+iframe {
+	border: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+	text-align: left;
+}
+
+/* --------------------
+FONTS
+-------------------- */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+html {
+	background-color: rgb(30, 30, 30);
+	color: white;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+/* --------------------
+Alternate Table Row Coloring
+-------------------- */
+.data-table tr {
+	background-color: rgb(82, 105, 117);
+}
+
+.data-table tr:nth-child(2n) {
+	background-color: rgb(38, 44, 61);
+}
+
+/* --------------------
+COLORS
+-------------------- */
+.red-text {
+	color: #ff7272;
+}
+
+.green-text {
+	color: #76ff72;
+}
+
+/* --------------------
+MATERIAL ICONS
+-------------------- */
+.material-icons {
+	color: rgb(186, 201, 208);
+	padding-left: 0.25em;
+}
+
+/* sizing options for the material-icons */
+.material-icons.md-18 {
+	font-size: 18px;
+}
+
+.material-icons.md-24 {
+	font-size: 24px;
+}
+
+.material-icons.md-36 {
+	font-size: 36px;
+}
+
+.material-icons.md-48 {
+	font-size: 48px;
+}
+
+.material-icons:hover {
+	color: white;
+	cursor: pointer;
+}
